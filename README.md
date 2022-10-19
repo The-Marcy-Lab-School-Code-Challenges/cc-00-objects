@@ -12,28 +12,23 @@
 
 ### **Test your solutions for questions 1 and 2 with the following variable:** 
 ```javascript
-const fellows = "marcy fellows"
+const AsscoiateInstructorAges = {carmen: 22, itzel: 22, jowel: 27}
 ```
 
-1. Write a function named `charCount` that takes in a string and returns an object where the keys are letters in the string and the value of each key is a count of how many times the character appears in the string.
-    
+1. Write a function named `getAllKeys` that takes in an object argument and logs all the keys in the given argument to the console.
+
     ```javascript
-    const fellows = "marcy fellows"
-    charCount(fellows) // returns { m: 1, a: 1, r: 1, c: 1, y: 1, ' ': 1, f: 1, e: 1, l: 2, o: 1, w: 1, s: 1 }
+    getAllKeys(AsscoiateInstructorAges) // will log to the console: carmen, itzel, jowel
     ```
     
-2. Write a function named `letterCount` that takes in a string and returns an object where the keys are letters in the string and the value of each key is a count of how many times the character appears in the string, not including empty spaces. 
-    
+2. Write a function named `getAllValues` that takes in an object argument and logs the value of every key in the given argument to the console.
+
     ```javascript
-    letterCount(fellows) // returns { m: 1, a: 1, r: 1, c: 1, y: 1, f: 1, e: 1, l: 2, o: 1, w: 1, s: 1 }
+    getAllValues(AsscoiateInstructorAges) // will log to the console: 22, 22, 27
     ```
     
 ### Bonus
-3. Write a function named `letterCountRefactor` that has the same input and output as `letterCount` except you cannot use a `for` loop or `if` statements. Consider using `for in`, `for of`, and ternary operators. 
-
-
-4. Write a function named `vowelCount` that takes in a string and returns an object where the keys are letters in the given string that are vowels and the value of each vowel key is a count of how many times the character appears in the string.
-
+3. Write a function named `sumAllValues` that takes in an object argument returns the sum of all the values of every key in the given argument. 
     ```javascript
-    vowelCount(fellows) // returns {a: 1, o: 1, e: 1}
+    sumAllValues(AsscoiateInstructorAges) // returns 71
     ```
