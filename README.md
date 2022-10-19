@@ -28,7 +28,7 @@ const AsscoiateInstructorAges = {carmen: 22, itzel: 22, jowel: 27}
     ```
     
 ### Bonus
-3. Write a function named `sumAllValues` that takes in an object argument returns the sum of all the values of every key in the given argument. 
+3. Write a function named `sumAllValues` that takes in an object argument and returns the sum of all the values of every key in the given argument. 
     ```javascript
     sumAllValues(AsscoiateInstructorAges) // returns 71
     ```
