@@ -12,23 +12,23 @@
 
 ### **Test your solutions for questions 1 and 2 with the following variable:** 
 ```javascript
-const AsscoiateInstructorAges = {carmen: 22, itzel: 22, jowel: 27}
+const asscoiateInstructorAges = {"carmen": 22, "itzel": 22, "jowel": 27}
 ```
 
 1. Write a function named `getAllKeys` that takes in an object argument and logs all the keys in the given argument to the console.
 
     ```javascript
-    getAllKeys(AsscoiateInstructorAges) // will log to the console: carmen, itzel, jowel
+    getAllKeys(asscoiateInstructorAges) // will log to the console: "carmen", "itzel", "jowel"
     ```
     
 2. Write a function named `getAllValues` that takes in an object argument and logs the value of every key in the given argument to the console.
 
     ```javascript
-    getAllValues(AsscoiateInstructorAges) // will log to the console: 22, 22, 27
+    getAllValues(asscoiateInstructorAges) // will log to the console: 22, 22, 27
     ```
     
 ### Bonus
 3. Write a function named `sumAllValues` that takes in an object argument and returns the sum of all the values of every key in the given argument. 
     ```javascript
-    sumAllValues(AsscoiateInstructorAges) // returns 71
+    sumAllValues(asscoiateInstructorAges) // returns 71
     ```
